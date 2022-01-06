@@ -76,7 +76,7 @@ function titleCase(str) {
 
 // Capitalize all first letters MKII
 // Speed: 0.36 - 0.60ms
-function titleCase(str) {
+function titleCaseMKII(str) {
  str = str.toLowerCase().split(' ');
  for (let i = 0; i < str.length; i++) {
   str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
